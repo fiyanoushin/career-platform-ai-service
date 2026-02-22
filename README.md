@@ -59,7 +59,7 @@ GROQ_MODEL=llama-3.1-8b-instant
 
 
 python -m venv venv
-source venv/bin/activate
+venv\scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8001
 
@@ -74,3 +74,4 @@ AI processing
 ML model execution
 
 Analyzing Resume
+
